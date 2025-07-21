@@ -27,7 +27,7 @@ describe('Formulario de Login - Abbaco', () => {
   //cy.get('#username:invalid').should('exist');
  //});
 
-  it('Debería permitir login con email y password válidos', () => {
+  it('Permitir login con email y password válidos', () => {
     LoginPage.fillLoginForm('test@qa.com', 'Pass1234!');
     LoginPage.submitLogin();
   });
